@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Signup - Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <h1>Signup</h1>
+        <form action="signup.php" method="POST">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="employeeId">Email:</label>
+                <input type="text" id="employeeId" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="createPassword">Create Password:</label>
+                <input type="password" id="createPassword" name="pwd" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="cpwd" required>
+            </div>
+            <button type="submit">Signup</button>
+        </form>
+        <p>Already have an account? <a href="index.html">Login</a></p>
+    </div>
+</body>
+
+</html>
